@@ -7,41 +7,118 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>個人網頁</title>
     <link rel="stylesheet" href="./CSS/My.css">
+    <link rel="stylesheet" href="./fontawesome-free-5.0.8/web-fonts-with-css/css/fontawesome-all.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- <script>
+        $(document).ready(function () {
+            $("button").click(function () {
+                $("#lol").toggle();
+            });
+        });
+    </script> -->
+
+
 </head>
 
 <body>
     <!-- <header class="includerow"> -->
+    <div class="container includerow ">
+
+        <ul class="ul">
+            <li>
+                <a class="bt" href="#">Home</a>
+            </li>
+            <li>
+                <a class="bt" href="#edu">學習背景</a>
+            </li>
+            <li>
+                <a class="bt" href="#skill">Skill</a>
+            </li>
+            <li>
+                <a class="bt" href="#">Photo</a>
+            </li>
+            <li>
+                <a class="bt" href="#">page4</a>
+            </li>
+            <li>
+                <a class="bt" href="#">page5</a>
+            </li>
+        </ul>
+    </div>
 
     <div class="card includerow">
-        <img class="resize float" src="./img/USER.png" alt="photo">
-    <div class="cardTitle">
-        <h1>Hello world</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias ipsum laborum delectus saepe ab quos voluptatibus vitae id dolor doloribus quisquam ex quia, fuga nostrum veniam eaque excepturi temporibus vero.</p>
+        <div class="cardTitle">
+
+            <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias ipsum laborum delectus saepe ab quos voluptatibus vitae id dolor doloribus quisquam ex quia, fuga nostrum veniam eaque excepturi temporibus vero.</p> -->
+
+            <pre style="color:white">
+                
+        </pre>
+        </div>
+
     </div>
-   
-    </div>
+
+
+
+
+    <!-- <div class="container includerow ">
+
+        <ul class="ul">
+            <li> <a  class="bt" href="#">WebSiteNum</a></li>
+            <li><a class="bt" href="#">page1</a></li>
+            <li><a class="bt" href="#">page2</a></li>
+            <li><a class="bt" href="#">page3</a></li>
+            <li><a class="bt" href="#">page4</a></li>
+            <li><a class="bt" href="#" >page5</a></li>
+        </ul>
+            </div> -->
+
+
+
+
+    <!-- <div style="height:5em;"></div> -->
+
 
 
     <!-- </header> -->
 
     <div class="article">
+
+
+
+        <div class="includerow" style="background-color:white ;height:20em;">
+            <img class="resize float" src="./img/me.jpg" alt="photo">
+            <h1 style="display:inline;color:black; font-size:3em;float:right;">黃致豪
+                    <h2 style="display:inline;color:black;margin:0 0 0 1em;float:right;">Stan</h2>
+                </h1>
+        </div>
+
         <div class="includerow">
             <!-- 1ST -->
             <div class="row ">
+                <h1>
+                    工作經歷
+                </h1>
                 <div class="borderbox"></div>
+
                 <div class="textbox ">
 
-                    <p class="float" style="width:100%">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt consectetur omnis, magni voluptates
-                        eaque tenetur officia. Eum, et, reiciendis consequuntur rerum non delectus possimus soluta magnam
-                        odit ratione, fuga earum.lor</p>
+                    <h3 class="float" style="width:100%">行銷業務助理
+                        <img class="workimg" src="./img/mh.PNG" alt="mh.PNG">
+                    </h3>
+                    <ul class="workul">
+                        <p style="font-size: 1.5em;padding:0;">銘丰金屬有限公司</p>
+                        <li>提供意見開發新產品並且成功上市量產</li>
+                        <li>協助室內設計師客製化金屬裝潢收編條</li>
+                    </ul>
 
+                    </ul>
                 </div>
             </div>
-
 
 
             <!-- 2ND -->
-            <div class="row ">
+            <!-- <div class="row ">
 
                 <div style="display:inline-block float">
                     <div class="borderbox "></div>
@@ -49,16 +126,22 @@
 
                 <div class="textbox ">
 
-                    <p class="float" style="width:100%">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt consectetur omnis, magni voluptates
-                        eaque tenetur officia. Eum, et, reiciendis consequuntur rerum non delectus possimus soluta magnam
-                        odit ratione, fuga earum.</p>
+                    <p class="float" style="width:100%">工程師</p>
+                    <ul>
+                            <p>互動數位國際有限公司</p>
+                            <li>維護管理台哥大 WIFI Apitlo核心設備與 Aruba 3000外點</li>
+                            <li>協助台哥大 WIFI 登入入口判斷改寫以及入口網站憑證管理</li>
+                            <li>維護台哥大 VOIP語音系統  SBC 設備及提供IPSEC功能前置昇版</li>
+                            <li>使用Smart Bit進行中華電信EPON產品壓力測試</li>
+                            <li>以Open Stack 10與 Big Cloud Fabric 整合架設中華電信DEMO網路虛擬化環境</li>
+                        </ul>
 
                 </div>
             </div>
-
+ -->
 
             <!-- 3RD -->
-            <div class="row ">
+            <!-- <div class="row ">
 
                 <div style="display:inline-block float">
                     <div class="borderbox "></div>
@@ -71,7 +154,7 @@
                         odit ratione, fuga earum.</p>
 
                 </div>
-            </div>
+            </div> -->
 
 
 
@@ -85,63 +168,70 @@
 
                 <div class="textbox ">
 
-                    <p class="float" style="width:100%">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt consectetur omnis, magni voluptates
-                        eaque tenetur officia. Eum, et, reiciendis consequuntur rerum non delectus possimus soluta magnam
-                        odit ratione, fuga earum.</p>
+                    <h3 class="float" style="width:100%;padding:0;">工程師
+                        <img class="workimg" src="./img/idt.jpg" alt="idt.jpg">
+                    </h3>
+                    <ul class="workul">
+                        <p style="font-size: 1.5em;">互動數位國際有限公司 </p>
+                        <li>維護管理台哥大 WIFI Apitlo核心設備與 Aruba 3000外點</li>
+                        <li>協助台哥大 WIFI 登入入口判斷改寫以及入口網站憑證管理</li>
+                        <li>維護台哥大 VOIP語音系統 SBC 設備及提供IPSEC功能前置昇版</li>
+                        <li>使用Smart Bit進行中華電信EPON產品壓力測試</li>
+                        <li>以Open Stack 10與 Big Cloud Fabric 整合架設中華電信DEMO網路虛擬化環境</li>
+                    </ul>
 
                 </div>
             </div>
-
-            <div class="col-12 edurow">
+            <div id="edu" class="col-12 edurow">
                 <h1>
-                    教育背景
+                    學習背景
                 </h1>
                 <ul class="col-12">
-                    <li>XX大學
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum temporibus natus minima eveniet amet necessitatibus, saepe sint! In ducimus consequatur officia, cumque neque delectus quasi voluptatum accusamus cum placeat accusantium!</p>
-                        <ul>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                        </ul>
+                    <li>中國文化大學
+                        <p>2009/06-2014/06 政治系學士</p>
                     </li>
-    
-    
-    
-                    <li>XX高中
+
+
+
+                    <li>資策會
                         <p>
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum quam architecto nobis doloremque illo dignissimos molestiae exercitationem facilis rerum vitae unde obcaecati harum totam voluptate, ipsam officia sapiente cumque. Expedita.
+                                2015/12-2016/06 網路系統整合工程師 就業養成班 
                         </p>
-                        <ul>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                        </ul>
+
                     </li>
                 </ul>
 
+            </div>
+
+            <div class="skill col-12">
+
+                <h1 id="skill">Skill</h1>
+
+
+                <div class="col-6 skill skillborder">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas non animi suscipit hic architecto. Illum
+                        possimus excepturi accusantium quas esse nostrum quia neque facere nemo animi? Fuga aliquid debitis
+                        sapiente.
+                    </p>
+                </div>
+                <div class="col-6 skill skillborder">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore mollitia, autem aut maiores atque soluta
+                        dolor voluptatum rerum exercitationem ex eaque blanditiis et libero obcaecati adipisci architecto
+                        necessitatibus reiciendis pariatur.</p>
+                </div>
+
+            </div>
+
+            <div class=" col-12 photo">
+                <h1>Photo</h1>
+                <img class="col-6" src="./img/USER.png" alt="img">
+                <img class="col-6" src="./img/USER.png" alt="img">
+
+            </div>
         </div>
 
-<div class="skill col-12">
 
-<h1>Skill</h1>
-
-
-<div class="col-6 skill skillborder">
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas non animi suscipit hic architecto. Illum possimus excepturi accusantium quas esse nostrum quia neque facere nemo animi? Fuga aliquid debitis sapiente.</p>
-</div>
-<div class="col-6 sklii skillborder">
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore mollitia, autem aut maiores atque soluta dolor voluptatum rerum exercitationem ex eaque blanditiis et libero obcaecati adipisci architecto necessitatibus reiciendis pariatur.</p>
-</div>
-
-</div>
-
-
-    </div>
+        </div>
 
 
 
@@ -150,7 +240,7 @@
 
     </div>
 
-
+    </div>
 
 
 
